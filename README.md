@@ -23,6 +23,7 @@
     python3 aggregate.py <metric>
     ```
 
+
 **Available Metrics:**
 - `average_calories_low_sleep` - Calculates the average calories burned on days with less than 6 hours of sleep
 - `push_days` - Counts the total number of push day workouts
@@ -37,9 +38,11 @@ python3 aggregate.py morning_workouts
 
 **Note**: The script requires exactly one argument (the metric name). If no argument is provided or an invalid metric is specified, it will display an error message and exit. Running any metric will first aggregate the data from `sleep.json` and `workouts.json` into `days.json`, then calculate and print the requested metric. 
 
+I used a virtual environment to ensure all of the dependencies were up to date and easily shareable.
+
 ## Methodology
 
-I used four builtin libraries: `zoneinfo`, `json`, `datetime`, and `sys`, and two imported libraries: `pytz` and `dateutil`. The core challenge was handling timestamps from multiple timezones and converting them to a standardized UTC format for accurate date-based aggregation.
+I used four builtin libraries: `zoneinfo`, `json`, `datetime`, and `sys`, and two imported libraries: `pytz` and `dateutil`. The core challenge was handling timestamps from multiple timezones and converting them to a standardized UTC format for accurate date-based aggregation. I used these libraries because when researching them on Google, they had the most functionality in terms of amount of datetimes and easily-readable objects and they were popular.
 
 ### Library Usage
 
@@ -77,7 +80,7 @@ I used four builtin libraries: `zoneinfo`, `json`, `datetime`, and `sys`, and tw
 5. **Metric Calculation**: Compute metrics from the aggregated data, such as average calories burned on days with low sleep duration.
 
 ### Artificial Intelligence
-I used Cursor to help generate edge cases for `workouts.json` and `sleep.json` (based on 12 cases I had already written), particularly timestamps that cross day boundaries when converted to UTC. I also used it to help me find more details about which modules would be best to use for datetime conversions. However, a majority of my research on these modules came from Google and Stack Overflow posts about how to convert such a wide range of timezones and specific use cases like dictionary handling and parsing. To create this README, I also gave a detailed structure and explanation of how to run, methodology, and code breakdown and had it expand on some finer details.
+I used Cursor to help generate edge cases for `workouts.json` and `sleep.json` (based on 12 cases I had already written), particularly timestamps that cross day boundaries when converted to UTC. However, a majority of my research on these modules came from Google and Stack Overflow posts about how to convert such a wide range of timezones and specific use cases like dictionary handling and parsing. To create this README, I also gave a detailed structure and explanation of how to run, methodology, and code breakdown and had it expand on some finer details. I also had it generate some unique edge cases that would result in data loss or error and fixed them.
 
 ## Code Breakdown
 
@@ -100,11 +103,11 @@ The codebase consists of two main functions and three metric functions, with com
    - Maps the abbreviation to the corresponding pytz timezone object
 4. Returns a dictionary in the format: `{"PST": <pytz.timezone object>, "PDT": <pytz.timezone object>, ...}`
 
-**Key insight**: By checking both winter and summer dates, we ensure that timezones with DST are represented by both their standard and daylight saving abbreviations, preventing `UnknownTimezoneWarning` errors when parsing timestamps.
+**Key insight**: By checking both winter and summer dates, we ensure that timezones with DST are represented by both their standard and daylight saving abbreviations, preventing `UnknownTimezoneWarning` errors when parsing timestamps. I separated this into another function because getting the timezone data has a lot of resource cost and I wanted it to be separate from the dataframe interactions.
 
 #### `aggregate_sleep_data()`
 
-**Purpose**: Aggregates sleep and workout data by UTC date, handling multiple timezone formats and cross-day boundary conversions.
+**Purpose**: Aggregates sleep and workout data by UTC date, handling multiple timezone formats and cross-day boundary conversions. I decided to not have this output any text other than the errors and instead write the resulting object to a new file, days.json, instead, where it is easily viewable.
 
 **Data Flow**:
 1. **Load Data**: Reads `sleep.json` and `workouts.json` files
@@ -130,6 +133,8 @@ The codebase consists of two main functions and three metric functions, with com
 - Various timestamp formats (ISO, space-separated, with offsets, with abbreviations)
 
 ### Metrics
+
+Inside each metric, I call the `aggregate_sleep_data()` method to combine the dataframe and then output one value, to get a proper, concise result instead of a massive chunk of data.
 
 #### `average_calories_low_sleep()`
 
