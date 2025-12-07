@@ -460,5 +460,126 @@
             "Smith Machine"
         ],
         "time": "2023-10-25 18:00:00 AKDT"
+    },
+    {
+        "name": "Leg day",
+        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "legs"
+        ],
+        "calories_burned": 150,
+        "equipment": [
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Extension Machine",
+            "Leg Curl Machine"
+        ],
+        "time": "2023-10-15 23:45:00 PST"
+    },
+    {
+        "name": "Pull day",
+        "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "back",
+            "shoulders",
+            "triceps"
+        ],
+        "calories_burned": 120,
+        "equipment": [
+            "Lat Pulldown",
+            "Seated Cable Row",
+            "Assisted Pull-Up Machine"
+        ],
+        "time": "2023-10-16 23:30:00 EST"
+    },
+    {
+        "name": "Push day",
+        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "chest",
+            "shoulders"
+        ],
+        "calories_burned": 110,
+        "equipment": [
+            "Chest Press Machine",
+            "Incline Press",
+            "Seated Shoulder Press Machine"
+        ],
+        "time": "2023-10-17T23:15:00-05:00"
+    },
+    {
+        "name": "Leg day",
+        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "legs"
+        ],
+        "calories_burned": 140,
+        "equipment": [
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Extension Machine"
+        ],
+        "time": "2023-10-18 00:30:00 +10:00"
+    },
+    {
+        "name": "Pull day",
+        "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "back",
+            "shoulders",
+            "triceps"
+        ],
+        "calories_burned": 130,
+        "equipment": [
+            "Lat Pulldown",
+            "Seated Cable Row",
+            "Cable Bicep Curls"
+        ],
+        "time": "2023-10-19T01:15:00+11:00"
+    },
+    {
+        "name": "Push day",
+        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "chest",
+            "shoulders"
+        ],
+        "calories_burned": 105,
+        "equipment": [
+            "Chest Press Machine",
+            "Incline Press",
+            "Pec Deck/Fly Machine"
+        ],
+        "time": "2023-10-20 00:45:00 +09:00"
+    },
+    {
+        "name": "Leg day",
+        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "legs"
+        ],
+        "calories_burned": 145,
+        "equipment": [
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Curl Machine"
+        ],
+        "time": "2023-10-21T23:50:00-08:00"
+    },
+    {
+        "name": "Pull day",
+        "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "back",
+            "shoulders",
+            "triceps"
+        ],
+        "calories_burned": 125,
+        "equipment": [
+            "Lat Pulldown",
+            "Seated Cable Row",
+            "Reverse Pec Deck for rear delts"
+        ],
+        "time": "2023-10-22 00:20:00 +12:00"
     }
 ]

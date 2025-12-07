@@ -123,5 +123,45 @@
         "sleep_start": "2023-10-25T02:30:00-06:00",
         "sleep_quality": 9.7,
         "sleep_duration": 9
+    },
+    {
+        "sleep_start": "2023-10-15 23:45:00 PST",
+        "sleep_quality": 8.5,
+        "sleep_duration": 7
+    },
+    {
+        "sleep_start": "2023-10-16 23:30:00 EST",
+        "sleep_quality": 7.2,
+        "sleep_duration": 6
+    },
+    {
+        "sleep_start": "2023-10-17T23:15:00-05:00",
+        "sleep_quality": 6.8,
+        "sleep_duration": 8
+    },
+    {
+        "sleep_start": "2023-10-18 00:30:00 +10:00",
+        "sleep_quality": 9.3,
+        "sleep_duration": 7
+    },
+    {
+        "sleep_start": "2023-10-19T01:15:00+11:00",
+        "sleep_quality": 8.1,
+        "sleep_duration": 6
+    },
+    {
+        "sleep_start": "2023-10-20 00:45:00 +09:00",
+        "sleep_quality": 7.9,
+        "sleep_duration": 8
+    },
+    {
+        "sleep_start": "2023-10-21T23:50:00-08:00",
+        "sleep_quality": 6.4,
+        "sleep_duration": 9
+    },
+    {
+        "sleep_start": "2023-10-22 00:20:00 +12:00",
+        "sleep_quality": 8.7,
+        "sleep_duration": 7
     }
 ]

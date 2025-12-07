@@ -17,7 +17,8 @@
             "Triceps Pushdown Machine",
             "Cable Crossover",
             "Smith Machine"
-        ]
+        ],
+        "time": "22:48:00"
     },
     "2023-10-02": {
         "sleep_quality": 1.5,
@@ -38,7 +39,8 @@
             "Triceps Pushdown Machine",
             "Cable Crossover",
             "Smith Machine"
-        ]
+        ],
+        "time": "17:30:00"
     },
     "2023-10-03": {
         "sleep_quality": 9,
@@ -58,7 +60,8 @@
             "Calf Raise Machine",
             "Leg Extension Machine",
             "Leg Curl Machine"
-        ]
+        ],
+        "time": "14:33:00"
     },
     "2023-10-04": {
         "sleep_quality": 10,
@@ -77,7 +80,8 @@
             "Assisted Pull-Up Machine",
             "Reverse Pec Deck for rear delts",
             "Cable Bicep Curls"
-        ]
+        ],
+        "time": "19:45:00"
     },
     "2023-10-05": {
         "sleep_quality": 8.8,
@@ -97,7 +101,8 @@
             "Triceps Pushdown Machine",
             "Cable Crossover",
             "Smith Machine"
-        ]
+        ],
+        "time": "20:16:00"
     },
     "2023-10-07": {
         "sleep_quality": 4.4,
@@ -121,7 +126,8 @@
             "Calf Raise Machine",
             "Leg Extension Machine",
             "Leg Curl Machine"
-        ]
+        ],
+        "time": "03:30:00"
     },
     "2023-10-08": {
         "sleep_quality": 6.1,
@@ -144,7 +150,8 @@
             "Triceps Pushdown Machine",
             "Cable Crossover",
             "Smith Machine"
-        ]
+        ],
+        "time": "00:08:00, 14:45:00"
     },
     "2023-10-10": {
         "sleep_quality": 9.9,
@@ -163,7 +170,8 @@
             "Assisted Pull-Up Machine",
             "Reverse Pec Deck for rear delts",
             "Cable Bicep Curls"
-        ]
+        ],
+        "time": "19:55:00"
     },
     "2023-10-11": {
         "sleep_quality": 2.1,
@@ -183,7 +191,8 @@
             "Calf Raise Machine",
             "Leg Extension Machine",
             "Leg Curl Machine"
-        ]
+        ],
+        "time": "12:26:00"
     },
     "2023-10-12": {
         "sleep_quality": 7.9,
@@ -202,7 +211,8 @@
             "Assisted Pull-Up Machine",
             "Reverse Pec Deck for rear delts",
             "Cable Bicep Curls"
-        ]
+        ],
+        "time": "23:40:00"
     },
     "2023-10-13": {
         "sleep_quality": 8.2,
@@ -231,7 +241,8 @@
             "Calf Raise Machine",
             "Leg Extension Machine",
             "Leg Curl Machine"
-        ]
+        ],
+        "time": "18:35:00, 15:15:00"
     },
     "2023-10-14": {
         "sleep_quality": 9.1,
@@ -254,15 +265,20 @@
             "Assisted Pull-Up Machine",
             "Reverse Pec Deck for rear delts",
             "Cable Bicep Curls"
-        ]
+        ],
+        "time": "23:02:00"
     },
     "2023-10-17": {
-        "sleep_quality": 5.8,
-        "sleep_duration": 5,
-        "calories_burned": 100,
-        "name": "Leg day",
-        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "sleep_quality": 9.3,
+        "sleep_duration": 7,
+        "calories_burned": 360,
+        "name": "Leg day, Pull day, Leg day",
+        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
         "muscles": [
+            "legs",
+            "back",
+            "shoulders",
+            "triceps",
             "legs"
         ],
         "equipment": [
@@ -273,16 +289,28 @@
             "Leg Press Machine",
             "Calf Raise Machine",
             "Leg Extension Machine",
-            "Leg Curl Machine"
-        ]
+            "Leg Curl Machine",
+            "Lat Pulldown",
+            "Seated Cable Row",
+            "Assisted Pull-Up Machine",
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Extension Machine"
+        ],
+        "time": "18:11:00, 04:48:00, 14:30:00"
     },
     "2023-10-18": {
-        "sleep_quality": 8.7,
+        "sleep_quality": 8.1,
         "sleep_duration": 6,
-        "calories_burned": 100,
-        "name": "Pull day",
-        "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "calories_burned": 340,
+        "name": "Pull day, Push day, Pull day",
+        "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
         "muscles": [
+            "back",
+            "shoulders",
+            "triceps",
+            "chest",
+            "shoulders",
             "back",
             "shoulders",
             "triceps"
@@ -292,16 +320,25 @@
             "Seated Cable Row",
             "Assisted Pull-Up Machine",
             "Reverse Pec Deck for rear delts",
+            "Cable Bicep Curls",
+            "Chest Press Machine",
+            "Incline Press",
+            "Seated Shoulder Press Machine",
+            "Lat Pulldown",
+            "Seated Cable Row",
             "Cable Bicep Curls"
-        ]
+        ],
+        "time": "17:35:00, 04:15:00, 14:15:00"
     },
     "2023-10-19": {
-        "sleep_quality": 6.9,
-        "sleep_duration": 7,
-        "calories_burned": 100,
-        "name": "Push day",
-        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "sleep_quality": 7.9,
+        "sleep_duration": 8,
+        "calories_burned": 205,
+        "name": "Push day, Push day",
+        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
         "muscles": [
+            "chest",
+            "shoulders",
             "chest",
             "shoulders"
         ],
@@ -312,26 +349,33 @@
             "Pec Deck/Fly Machine",
             "Triceps Pushdown Machine",
             "Cable Crossover",
-            "Smith Machine"
-        ]
+            "Smith Machine",
+            "Chest Press Machine",
+            "Incline Press",
+            "Pec Deck/Fly Machine"
+        ],
+        "time": "11:45:00, 15:45:00"
     },
     "2023-10-20": {
         "sleep_quality": 9.4,
         "sleep_duration": 8
     },
     "2023-10-21": {
-        "sleep_quality": 7.6,
-        "sleep_duration": 6,
-        "calories_burned": 300,
-        "name": "Leg day, Pull day, Push day",
-        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "sleep_quality": 8.7,
+        "sleep_duration": 7,
+        "calories_burned": 425,
+        "name": "Leg day, Pull day, Push day, Pull day",
+        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
         "muscles": [
             "legs",
             "back",
             "shoulders",
             "triceps",
             "chest",
-            "shoulders"
+            "shoulders",
+            "back",
+            "shoulders",
+            "triceps"
         ],
         "equipment": [
             "Leg Press Machine",
@@ -353,8 +397,12 @@
             "Pec Deck/Fly Machine",
             "Triceps Pushdown Machine",
             "Cable Crossover",
-            "Smith Machine"
-        ]
+            "Smith Machine",
+            "Lat Pulldown",
+            "Seated Cable Row",
+            "Reverse Pec Deck for rear delts"
+        ],
+        "time": "02:50:00, 09:12:00, 18:10:00, 12:20:00"
     },
     "2023-10-23": {
         "sleep_quality": 8.3,
@@ -374,7 +422,8 @@
             "Calf Raise Machine",
             "Leg Extension Machine",
             "Leg Curl Machine"
-        ]
+        ],
+        "time": "00:40:00"
     },
     "2023-10-24": {
         "sleep_quality": 5.5,
@@ -393,7 +442,8 @@
             "Assisted Pull-Up Machine",
             "Reverse Pec Deck for rear delts",
             "Cable Bicep Curls"
-        ]
+        ],
+        "time": "05:55:00"
     },
     "2023-10-25": {
         "sleep_quality": 9.7,
@@ -413,7 +463,50 @@
             "Triceps Pushdown Machine",
             "Cable Crossover",
             "Smith Machine"
-        ]
+        ],
+        "time": "04:00:00"
+    },
+    "2023-10-16": {
+        "sleep_quality": 8.5,
+        "sleep_duration": 7,
+        "calories_burned": 250,
+        "name": "Push day, Leg day",
+        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "chest",
+            "shoulders",
+            "legs"
+        ],
+        "equipment": [
+            "Chest Press Machine",
+            "Incline Press",
+            "Seated Shoulder Press Machine",
+            "Pec Deck/Fly Machine",
+            "Triceps Pushdown Machine",
+            "Cable Crossover",
+            "Smith Machine",
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Extension Machine",
+            "Leg Curl Machine"
+        ],
+        "time": "17:05:00, 07:33:00"
+    },
+    "2023-10-22": {
+        "sleep_quality": 6.4,
+        "sleep_duration": 9,
+        "calories_burned": 145,
+        "name": "Leg day",
+        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "legs"
+        ],
+        "equipment": [
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Curl Machine"
+        ],
+        "time": "07:50:00"
     },
     "2023-10-09": {
         "sleep_quality": 0,
@@ -433,26 +526,7 @@
             "Triceps Pushdown Machine",
             "Cable Crossover",
             "Smith Machine"
-        ]
-    },
-    "2023-10-16": {
-        "sleep_quality": 0,
-        "sleep_duration": 0,
-        "calories_burned": 100,
-        "name": "Push day",
-        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-        "muscles": [
-            "chest",
-            "shoulders"
         ],
-        "equipment": [
-            "Chest Press Machine",
-            "Incline Press",
-            "Seated Shoulder Press Machine",
-            "Pec Deck/Fly Machine",
-            "Triceps Pushdown Machine",
-            "Cable Crossover",
-            "Smith Machine"
-        ]
+        "time": "13:10:00"
     }
 }
