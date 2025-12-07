@@ -37,29 +37,49 @@ def aggregate_sleep_data():
     for day in sleep_data:
         time_parsed = parser.parse(day['sleep_start'], tzinfos=tzinfos)
         utc_parsed = time_parsed.astimezone(timezone.utc)
-        days[utc_parsed.date()] = {"sleep_quality": day['sleep_quality'], "sleep_duration": day['sleep_duration']} #assuming one sleep entry per day
+        std = str(utc_parsed.date())
+        days[std] = {"sleep_quality": day['sleep_quality'], "sleep_duration": day['sleep_duration']} #assuming one sleep entry per day
     
     for workout in workouts_data:
         time_parsed = parser.parse(workout['time'], tzinfos=tzinfos)
         utc_parsed = time_parsed.astimezone(timezone.utc)
-        print(utc_parsed.date())
-        if utc_parsed.date() in days:
-            if "calories_burned" in days[utc_parsed.date()]:
-                days[utc_parsed.date()]["calories_burned"] += workout['calories_burned'] #could be multiple workouts per day
-                days[utc_parsed.date()]["name"] += workout['name']
-                days[utc_parsed.date()]["description"] += workout['description']
-                days[utc_parsed.date()]["muscles"] += workout['muscles']
-                days[utc_parsed.date()]["equipment"] += workout['equipment']
-            days[utc_parsed.date()]["calories_burned"] = workout['calories_burned'] 
-            days[utc_parsed.date()]["name"] = workout['name']
-            days[utc_parsed.date()]["description"] = workout['description']
-            days[utc_parsed.date()]["muscles"] = workout['muscles']
-            days[utc_parsed.date()]["equipment"] = workout['equipment']
+        std = str(utc_parsed.date())
+        if std in days:
+            if "calories_burned" in days[std]:
+                days[std]["calories_burned"] += workout['calories_burned'] #could be multiple workouts per day
+                days[std]["name"] += ", " + workout['name']
+                days[std]["description"] += workout['description']
+                days[std]["muscles"] += workout['muscles']
+                days[std]["equipment"] += workout['equipment']
+            else:
+                days[std]["calories_burned"] = workout['calories_burned'] 
+                days[std]["name"] = workout['name']
+                days[std]["description"] = workout['description']
+                days[std]["muscles"] = workout['muscles']
+                days[std]["equipment"] = workout['equipment']
             
         else:
-            days[utc_parsed.date()] = {"sleep_quality": 0, "sleep_duration": 0, "calories_burned": workout['calories_burned'], "name": workout['name'], "description": workout['description'], "muscles": workout['muscles'], "equipment": workout['equipment']}
-    # with open("days.json", "w") as f:
-    #    json.dump(days, f, indent=4)
+            days[std] = {"sleep_quality": 0, "sleep_duration": 0, "calories_burned": workout['calories_burned'], "name": workout['name'], "description": workout['description'], "muscles": workout['muscles'], "equipment": workout['equipment']}
+    
+    for day in days:
+        print(days[day])
+    with open("days.json", "w") as f:
+        json.dump(days, f, indent=4)
+
+def average_calories_low_sleep():
+    aggregate_sleep_data()
+    with open("days.json", "r") as f:
+        days = json.load(f)
+    total_calories = 0
+    total_days = 0
+    for day in days:
+        if days[day]["sleep_duration"] < 6:
+            if "calories_burned" in days[day]:
+                total_calories += days[day]["calories_burned"]
+            else:
+                total_calories += 0
+            total_days += 1
+    print(total_calories / total_days)
 
 if __name__ == "__main__":
-    aggregate_sleep_data()
+    average_calories_low_sleep()
