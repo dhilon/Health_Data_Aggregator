@@ -9,19 +9,27 @@ def get_comprehensive_tzinfos():
     tzinfos = {}
     
     all_timezones_pytz = pytz.all_timezones
+    
+    # Check both January (winter) and July (summer) to capture both ST and DST abbreviations
+    # For Northern Hemisphere: January = ST, July = DST
+    # For Southern Hemisphere: January = DST, July = ST
+    dates_to_check = [
+        datetime(2025, 1, 15, 12, 0, 0),
+        datetime(2025, 7, 15, 12, 0, 0),
+    ]
         
     for count in all_timezones_pytz:
         try:
+            # Check both dates to get both standard time and daylight saving time abbreviations
+            for dt_naive in dates_to_check:
+                dt_with_timezone = dt_naive.replace(tzinfo=ZoneInfo(count))
             
-            dt_with_timezone = datetime.now(ZoneInfo(count))
-        
-            # Get the timezone abbreviation
-            abbreviation = dt_with_timezone.strftime('%Z')
-            
-            if abbreviation not in tzinfos:
-                tzinfos[abbreviation] = pytz.timezone(count)
+                abbreviation = dt_with_timezone.strftime('%Z')
                 
-        except pytz.UnknownTimeZoneError:
+                if abbreviation and abbreviation not in tzinfos:
+                    tzinfos[abbreviation] = pytz.timezone(count)
+                
+        except (pytz.UnknownTimeZoneError, Exception):
             pass
         
     return tzinfos
