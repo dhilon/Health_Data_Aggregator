@@ -1,245 +1,221 @@
-{
-    "1": [
-        {
-            "name": "Push day",
-            "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "chest",
-                "shoulders"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Chest Press Machine",
-                "Incline Press",
-                "Seated Shoulder Press Machine",
-                "Pec Deck/Fly Machine",
-                "Triceps Pushdown Machine",
-                "Cable Crossover",
-                "Smith Machine"
-            ],
-            "time": "2023-10-01 15:00:00 PST"
-        }
-    ],
-    "2": [
-        {
-            "name": "Push day",
-            "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "chest",
-                "shoulders",
-                "triceps"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Chest Press Machine",
-                "Incline Press",
-                "Seated Shoulder Press Machine",
-                "Pec Deck/Fly Machine",
-                "Triceps Pushdown Machine",
-                "Cable Crossover",
-                "Smith Machine"
-            ],
-            "time": "2023-10-02 15:00:00 PST"
-        }
-    ],
-    "3": [
-        {
-            "name": "Leg day",
-            "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "legs"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Leg Press Machine",
-                "Calf Raise Machine",
-                "Leg Extension Machine",
-                "Leg Curl Machine",
-                "Leg Press Machine",
-                "Calf Raise Machine",
-                "Leg Extension Machine",
-                "Leg Curl Machine"
-            ],
-            "time": "2023-10-01 15:00:00 PST"
-        }
-    ],
-    "4": [
-        {
-            "name": "Pull day",
-            "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "back",
-                "shoulders",
-                "triceps"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Lat Pulldown",
-                "Seated Cable Row",
-                "Assisted Pull-Up Machine",
-                "Reverse Pec Deck for rear delts",
-                "Cable Bicep Curls"
-            ],
-            "time": "2023-10-02 15:00:00 PST"
-        }
-    ],
-    "5": [
-        {
-            "name": "Push day",
-            "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "chest",
-                "shoulders"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Chest Press Machine",
-                "Incline Press",
-                "Seated Shoulder Press Machine",
-                "Pec Deck/Fly Machine",
-                "Triceps Pushdown Machine",
-                "Cable Crossover",
-                "Smith Machine"
-            ],
-            "time": "2023-10-01 15:00:00 PST"
-        }
-    ],
-    "6": [
-        {
-            "name": "Leg day",
-            "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "legs"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Leg Press Machine",
-                "Calf Raise Machine",
-                "Leg Extension Machine",
-                "Leg Curl Machine",
-                "Leg Press Machine",
-                "Calf Raise Machine",
-                "Leg Extension Machine",
-                "Leg Curl Machine"
-            ],
-            "time": "2023-10-02 15:00:00 PST"
-        }
-    ],
-    "7": [
-        {
-            "name": "Push day",
-            "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "chest",
-                "shoulders"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Chest Press Machine",
-                "Incline Press",
-                "Seated Shoulder Press Machine",
-                "Pec Deck/Fly Machine",
-                "Triceps Pushdown Machine",
-                "Cable Crossover",
-                "Smith Machine"
-            ],
-            "time": "2023-10-01 15:00:00 PST"
-        }
-    ],
-    "8": [
-        {
-            "name": "Pull day",
-            "description": "A pull-up is a bodyweight exercise that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "back",
-                "shoulders",
-                "triceps"
-            ],
-            "calories_burned": 100,
-            "equipment": [],
-            "time": "2023-10-02 15:00:00 PST"
-        }
-    ],
-    "9": [
-        {
-            "name": "Push day",
-            "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "chest",
-                "shoulders"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Chest Press Machine",
-                "Incline Press",
-                "Seated Shoulder Press Machine",
-                "Pec Deck/Fly Machine",
-                "Triceps Pushdown Machine",
-                "Cable Crossover",
-                "Smith Machine"
-            ],
-            "time": "2023-10-01 15:00:00 PST"
-        }
-    ],
-    "10": [
-        {
-            "name": "Pull day",
-            "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "back",
-                "shoulders",
-                "triceps"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Lat Pulldown",
-                "Seated Cable Row",
-                "Assisted Pull-Up Machine",
-                "Reverse Pec Deck for rear delts",
-                "Cable Bicep Curls"
-            ],
-            "time": "2023-10-02 15:00:00 PST"
-        }
-    ],
-    "11": [
-        {
-            "name": "Leg day",
-            "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "legs"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Leg Press Machine",
-                "Calf Raise Machine",
-                "Leg Extension Machine",
-                "Leg Curl Machine",
-                "Leg Press Machine",
-                "Calf Raise Machine",
-                "Leg Extension Machine",
-                "Leg Curl Machine"
-            ],
-            "time": "2023-10-01 15:00:00 PST"
-        }
-    ],
-    "12": [
-        {
-            "name": "Pull day",
-            "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
-            "muscles": [
-                "back",
-                "shoulders",
-                "triceps"
-            ],
-            "calories_burned": 100,
-            "equipment": [
-                "Lat Pulldown",
-                "Seated Cable Row",
-                "Assisted Pull-Up Machine",
-                "Reverse Pec Deck for rear delts",
-                "Cable Bicep Curls"
-            ],
-            "time": "2023-10-02 15:00:00 PST"
-        }
-    ]
-}
+[
+    {
+        "name": "Push day",
+        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "chest",
+            "shoulders"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Chest Press Machine",
+            "Incline Press",
+            "Seated Shoulder Press Machine",
+            "Pec Deck/Fly Machine",
+            "Triceps Pushdown Machine",
+            "Cable Crossover",
+            "Smith Machine"
+        ],
+        "time": "2023-10-10 23:00:00 PST"
+    },
+    {
+        "name": "Push day",
+        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "chest",
+            "shoulders",
+            "triceps"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Chest Press Machine",
+            "Incline Press",
+            "Seated Shoulder Press Machine",
+            "Pec Deck/Fly Machine",
+            "Triceps Pushdown Machine",
+            "Cable Crossover",
+            "Smith Machine"
+        ],
+        "time": "2023-10-09 16:30:00 PST"
+    },
+    {
+        "name": "Leg day",
+        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "legs"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Extension Machine",
+            "Leg Curl Machine",
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Extension Machine",
+            "Leg Curl Machine"
+        ],
+        "time": "2023-10-01 15:00:00 PST"
+    },
+    {
+        "name": "Pull day",
+        "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "back",
+            "shoulders",
+            "triceps"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Lat Pulldown",
+            "Seated Cable Row",
+            "Assisted Pull-Up Machine",
+            "Reverse Pec Deck for rear delts",
+            "Cable Bicep Curls"
+        ],
+        "time": "2023-10-02 15:00:00 PST"
+    },
+    {
+        "name": "Push day",
+        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "chest",
+            "shoulders"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Chest Press Machine",
+            "Incline Press",
+            "Seated Shoulder Press Machine",
+            "Pec Deck/Fly Machine",
+            "Triceps Pushdown Machine",
+            "Cable Crossover",
+            "Smith Machine"
+        ],
+        "time": "2023-10-01 15:00:00 PST"
+    },
+    {
+        "name": "Leg day",
+        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "legs"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Extension Machine",
+            "Leg Curl Machine",
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Extension Machine",
+            "Leg Curl Machine"
+        ],
+        "time": "2023-10-02 15:00:00 PST"
+    },
+    {
+        "name": "Push day",
+        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "chest",
+            "shoulders"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Chest Press Machine",
+            "Incline Press",
+            "Seated Shoulder Press Machine",
+            "Pec Deck/Fly Machine",
+            "Triceps Pushdown Machine",
+            "Cable Crossover",
+            "Smith Machine"
+        ],
+        "time": "2023-10-01 15:00:00 PST"
+    },
+    {
+        "name": "Pull day",
+        "description": "A pull-up is a bodyweight exercise that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "back",
+            "shoulders",
+            "triceps"
+        ],
+        "calories_burned": 100,
+        "equipment": [],
+        "time": "2023-10-02 15:00:00 PST"
+    },
+    {
+        "name": "Push day",
+        "description": "Push day is a workout that targets the chest, shoulders, and triceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "chest",
+            "shoulders"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Chest Press Machine",
+            "Incline Press",
+            "Seated Shoulder Press Machine",
+            "Pec Deck/Fly Machine",
+            "Triceps Pushdown Machine",
+            "Cable Crossover",
+            "Smith Machine"
+        ],
+        "time": "2023-10-01 15:00:00 PST"
+    },
+    {
+        "name": "Pull day",
+        "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "back",
+            "shoulders",
+            "triceps"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Lat Pulldown",
+            "Seated Cable Row",
+            "Assisted Pull-Up Machine",
+            "Reverse Pec Deck for rear delts",
+            "Cable Bicep Curls"
+        ],
+        "time": "2023-10-02 15:00:00 PST"
+    },
+    {
+        "name": "Leg day",
+        "description": "Leg day is a workout that targets the legs. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "legs"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Extension Machine",
+            "Leg Curl Machine",
+            "Leg Press Machine",
+            "Calf Raise Machine",
+            "Leg Extension Machine",
+            "Leg Curl Machine"
+        ],
+        "time": "2023-10-01 15:00:00 PST"
+    },
+    {
+        "name": "Pull day",
+        "description": "Pull day is a workout that targets the back, shoulders, and biceps. It is a fundamental exercise in strength training and can be performed with or without equipment.",
+        "muscles": [
+            "back",
+            "shoulders",
+            "triceps"
+        ],
+        "calories_burned": 100,
+        "equipment": [
+            "Lat Pulldown",
+            "Seated Cable Row",
+            "Assisted Pull-Up Machine",
+            "Reverse Pec Deck for rear delts",
+            "Cable Bicep Curls"
+        ],
+        "time": "2023-10-02 15:00:00 PST"
+    }
+]
